@@ -16,14 +16,18 @@
         font-weight: 700;
         text-align: center;
         padding-top: 2%;
+        color: #F5F5F5;
     }
     h3 {
         font-size: 175%;
         line-height: 155%;
         padding: 5% 0;
         font-weight: 400;
+        color: #F5F5F5;
     }
     p {
+        font-family: 'Alegreya' , sans-serif;
+        color: #F5F5F5;
         font-size: 160%;
         line-height: 150%;
         padding: 3%;
@@ -128,4 +132,16 @@
         margin: 0 auto;
         width: 50%;
         height: auto;
+    }
+    #tablet {
+        background-color: #C3D7DF;
+    }
+    aside {
+        float: right;
+        margin: 0;
+        width: 50%;
+        height: auto;
+    }
+    #tablet2 {
+        background-color: #A2B1C1;
     }
