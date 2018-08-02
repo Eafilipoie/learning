@@ -301,6 +301,7 @@ nav ul, nav:active ul {
 
 nav:hover ul {
     display: block;
+    display: 200ms;
 }
 
 nav li {
