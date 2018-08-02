@@ -278,10 +278,13 @@ header {
     margin: 15px 0px 20px -25px;
     background: url(img/RD_mobile.png) no-repeat center;
 }
+div {
+    display: none;
+}
 #menu-icon {
-    background: url(img/nav.png) center;
     display: inline-block;
 }
+
 nav ul, nav:active ul {
     display: none;
     z-index: 1000;
@@ -295,36 +298,72 @@ nav ul, nav:active ul {
     width: 50%;
 
 }
+
 nav:hover ul {
     display: block;
 }
+
 nav li {
     text-align: center;
     width: 100%;
     padding: 10px 0;
 }
+
 .banner {
     padding-top: 86px;
 }
+
 .one-fourth {
     width: 100%;
 }
+
 .one-fourth i {
     font-size: 350%;
     padding: 4% 0 1% 0;
 }
+
 article {
     width: 100%;
 }
+
 aside  {
     width: 100%;
 }
+
 .hand_mobile {
     display: none;
 }
+
 .one-third {
     width: 100%;
 }
+
 .social i {
     font-size: 180%;
+}
+
+.menu-botton {
+  display: block;
+  margin: 1em;
+  width: 36px;
+}
+
+.menu-botton:before,
+.menu-botton:after {
+  background-color: #fff;
+  content: '';
+  display: block;
+  height: 4px;
+  transition: all 200ms ease-in-out;
+}
+.menu-botton:before {
+  box-shadow: 0 10px 0 #fff;
+  margin-bottom: 16px;
+}
+.menu-botton:hover:before {
+  box-shadow: 0 0 0 #fff;
+  transform: translateY(10px) rotate(45deg);
+}
+.menu-botton:hover:after{
+  transform: translateY(-10px) rotate(-45deg);
 }
